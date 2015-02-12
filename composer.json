@@ -1,0 +1,31 @@
+{
+    "name": "laravelba/doctrivel",
+    "description": "Ease configuration and usage of doctrine2 ORM inside Laravel projects.",
+    "require": {
+        "doctrine/orm": "~2.5@dev",
+        "illuminate/contracts": "~5.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelBA\\Doctrivel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guido Contreras Woda",
+            "email": "guiwoda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
